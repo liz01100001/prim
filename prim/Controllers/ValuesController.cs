@@ -14,7 +14,7 @@ namespace prim.Controllers
     {
         // GET: api/<ValuesController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<string> First()
         {
             return new string[] { "value1", "value2" };
         }
